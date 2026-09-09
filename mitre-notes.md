@@ -24,3 +24,17 @@ The adversary is trying to break security mechanisms, pipelines, and tooling so 
 
 ### 6. Command and Control (TA0011)
 The adversary is trying to communicate with compromised systems to control them.
+
+
+## Real-World Example: Mapping to ATT&CK
+
+**Incident:** [WannaCry Ransomware]
+
+| Stage | ATT&CK Tactic | Technique Used |
+|---|---|---|
+| Entry | Initial Access | Exploitation of SMB vulnerability (EternalBlue) |
+| Execution | Execution | Self-propagating worm execution |
+| Discovery | Discovery | Remote System Discovery 
+| Impact | Impact | Data Encrypted for Impact (ransomware) |
+
+**Lesson learned:** Mapping real incidents to ATT&CK helps understand attacker behavior patterns and improves detection strategy.
